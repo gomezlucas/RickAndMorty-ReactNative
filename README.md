@@ -1,11 +1,51 @@
-# Sample Snack app
+# CHALLENGE REACT NATIVE -  OF RICK & MORTY:
+### React Native, Redux, GraphQl, React Pagination
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+The challenge consists of a web application with 3 searchers, one for the characters, one for locations and one for the episodes. As the user writes in one of the searches, a container has to be filled with data obtained from the API, as personal decision the results are loaded after the page is loaded and then when the user writes in one of the filters the results are filtered.  
+The searchers  includes a button to reset the search and the main container.
+The search can be done by name or type (in Characters and Locations Pages), which are entity attributes, for this reason, I add an radio input for those properties. 
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
+#### Data is shown in the search:
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+
+| Characters | Locations | Episodes |
+| ------ | ------ | ------ |
+| Name | Name  | Name 
+| Image | Dimension | Episode
+
+
+#### When an user clicks on one item, a modal is shown with detailed information about each entity and show: 
+
+| Characters | Locations | Episodes |
+| ------ | ------ | ------ |
+| Name | Name  | Name 
+| Type | Type | Release Date
+| Gender | Dimension | Episode
+| Species | Five first Residents | Five first Characters
+| Image |  
+
+### Screens: 
+
+ ![Screens](./assets/readImg/screensGif.gif) 
+
+
+#### Characters
+  ![ Characters Screens](./assets/readImg/screensGif.gif) 
+
+
+#### Episodes 
+  ![ Characters Screens](./assets/readImg/EpisodesGif.gif) 
+
+ #### Locations 
+  ![ Characters Screens](./assets/readImg/locationsGif.gif) 
+
+
+
+
+### Installation
+
+* To use this project, fork and clone this repository.
+* Install all the dependencies I have used with  npm install
+* npm start to run The project, or exported in your snack.ip repository
