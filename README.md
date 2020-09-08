@@ -32,7 +32,7 @@ The search can be done by name or type (in Characters and Locations Pages), whic
 
 
 #### Characters
-  ![ Characters Screens](./assets/readImg/screensGif.gif) 
+  ![ Characters Screens](./assets/readImg/CharactersGif.gif) 
 
 
 #### Episodes 
